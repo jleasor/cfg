@@ -20,6 +20,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 set undolevels=1000
+set hlsearch
 
 " FINDING FILES:
 " Search down into subfolders
