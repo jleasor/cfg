@@ -3,12 +3,14 @@
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'}
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 set nocompatible
 syntax enable
 filetype plugin on
 
+set laststatus=2
 set showmode
 set title
 set number
